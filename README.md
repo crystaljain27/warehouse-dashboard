@@ -21,6 +21,13 @@ React.js, Vite, Tailwind CSS, React Router, Zustand (global state), Mock REST AP
    http://localhost:5173
    ```
 
+## 🔐 Login Information
+Since this assignment uses frontend-only authentication without a backend,  
+**any valid email and any password will allow login.**  
+Login state is stored using global state (Zustand) as required.  
+This ensures evaluators can access the dashboard without needing fixed credentials.
+
+
 
 ## 🧱 Folder Structure & Architecture
 
