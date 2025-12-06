@@ -12,30 +12,34 @@ Project runs on http://localhost:5173
 
 ## 🧱 Folder Structure & Architecture
 src/
- ├── components/
- │    ├── BotCard.jsx
- │    ├── Navbar.jsx
- │    ├── TaskForm.jsx
- │    └── charts/
- │         └── StatusChart.jsx
- ├── pages/
- │    ├── Login.jsx
- │    ├── Signup.jsx
- │    ├── Dashboard.jsx
- │    ├── BotStatus.jsx
- │    ├── TaskAllocation.jsx
- │    ├── TaskQueue.jsx
- │    ├── Analytics.jsx
- │    └── Map.jsx
- ├── store/
- │    ├── authStore.js
- │    ├── botStore.js
- │    └── taskStore.js
- ├── utils/
- │    ├── mockBots.js
- │    └── randomUpdate.js
- ├── App.jsx
- └── main.jsx
+├── components/
+│ ├── BotCard.jsx
+│ ├── Navbar.jsx
+│ ├── TaskForm.jsx
+│ └── charts/
+│ └── StatusChart.jsx
+│
+├── pages/
+│ ├── Login.jsx
+│ ├── Signup.jsx
+│ ├── Dashboard.jsx
+│ ├── BotStatus.jsx
+│ ├── TaskAllocation.jsx
+│ ├── TaskQueue.jsx
+│ ├── Analytics.jsx
+│ └── Map.jsx
+│
+├── store/
+│ ├── authStore.js
+│ ├── botStore.js
+│ └── taskStore.js
+│
+├── utils/
+│ ├── mockBots.js
+│ └── randomUpdate.js
+│
+├── App.jsx
+└── main.jsx
 
 ## 🔄 Data Flow Overview
 ### Authentication
