@@ -11,35 +11,39 @@ npm run dev
 Project runs on http://localhost:5173
 
 ## 🧱 Folder Structure & Architecture
+
+```txt
 src/
 ├── components/
-│ ├── BotCard.jsx
-│ ├── Navbar.jsx
-│ ├── TaskForm.jsx
-│ └── charts/
-│ └── StatusChart.jsx
+│   ├── BotCard.jsx
+│   ├── Navbar.jsx
+│   ├── TaskForm.jsx
+│   └── charts/
+│       └── StatusChart.jsx
 │
 ├── pages/
-│ ├── Login.jsx
-│ ├── Signup.jsx
-│ ├── Dashboard.jsx
-│ ├── BotStatus.jsx
-│ ├── TaskAllocation.jsx
-│ ├── TaskQueue.jsx
-│ ├── Analytics.jsx
-│ └── Map.jsx
+│   ├── Login.jsx
+│   ├── Signup.jsx
+│   ├── Dashboard.jsx
+│   ├── BotStatus.jsx
+│   ├── TaskAllocation.jsx
+│   ├── TaskQueue.jsx
+│   ├── Analytics.jsx
+│   └── Map.jsx
 │
 ├── store/
-│ ├── authStore.js
-│ ├── botStore.js
-│ └── taskStore.js
+│   ├── authStore.js
+│   ├── botStore.js
+│   └── taskStore.js
 │
 ├── utils/
-│ ├── mockBots.js
-│ └── randomUpdate.js
+│   ├── mockBots.js
+│   └── randomUpdate.js
 │
 ├── App.jsx
 └── main.jsx
+```
+
 
 ## 🔄 Data Flow Overview
 ### Authentication
