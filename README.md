@@ -5,10 +5,22 @@ A responsive and interactive dashboard built as part of the Frontend Internship 
 React.js, Vite, Tailwind CSS, React Router, Zustand (global state), Mock REST API with randomized simulation logic, Recharts/Chart.js for analytics.
 
 ## 🛠️ How to Run the Project
-Install dependencies and start the dev server:
-npm install
-npm run dev
-Project runs on http://localhost:5173
+
+1. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+2. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+3. **Open the project in your browser**
+   ```
+   http://localhost:5173
+   ```
+
 
 ## 🧱 Folder Structure & Architecture
 
